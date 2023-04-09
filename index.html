@@ -1,0 +1,1179 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Formulario para solicitar aula</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/Beautiful-Time-Picker.css">
+<script>
+    function mostrar(id){
+        if (id == "antiguo"){
+            $("#antiguo").show();
+            $("#nuevo").hide();
+        }
+        if (id == "nuevo"){
+            $("#antiguo").hide();
+            $("#nuevo").show();
+        }
+    }
+    function mostraraula(id){
+        if (id == "101"){
+            $("#101").show();
+            $("#102").hide();
+            $("#103").hide();
+            $("#104").hide();
+            $("#105").hide();
+            $("#106").hide();
+            $("#107").hide();
+            $("#108").hide();
+            $("#F101").hide();
+            $("#F102").hide();
+            $("#F103").hide();
+            $("#F104").hide();
+            $("#F105").hide();
+            $("#F106").hide();
+            $("#F107").hide();
+            $("#F108").hide();
+        }
+
+        if (id == "102"){
+            $("#101").hide();
+            $("#102").show();
+            $("#103").hide();
+            $("#104").hide();
+            $("#105").hide();
+            $("#106").hide();
+            $("#107").hide();
+            $("#108").hide();
+            $("#F101").hide();
+            $("#F102").hide();
+            $("#F103").hide();
+            $("#F104").hide();
+            $("#F105").hide();
+            $("#F106").hide();
+            $("#F107").hide();
+            $("#F108").hide();
+        }
+
+        if (id == "103"){
+            $("#101").hide();
+            $("#102").hide();
+            $("#103").show();
+            $("#104").hide();
+            $("#105").hide();
+            $("#106").hide();
+            $("#107").hide();
+            $("#108").hide();
+            $("#F101").hide();
+            $("#F102").hide();
+            $("#F103").hide();
+            $("#F104").hide();
+            $("#F105").hide();
+            $("#F106").hide();
+            $("#F107").hide();
+            $("#F108").hide();
+        }
+
+        if (id == "104"){
+            $("#101").hide();
+            $("#102").hide();
+            $("#103").hide();
+            $("#104").show();
+            $("#105").hide();
+            $("#106").hide();
+            $("#107").hide();
+            $("#108").hide();
+            $("#F101").hide();
+            $("#F102").hide();
+            $("#F103").hide();
+            $("#F104").hide();
+            $("#F105").hide();
+            $("#F106").hide();
+            $("#F107").hide();
+            $("#F108").hide();
+        }
+
+        if (id == "105"){
+            $("#101").hide();
+            $("#102").hide();
+            $("#103").hide();
+            $("#104").hide();
+            $("#105").show();
+            $("#106").hide();
+            $("#107").hide();
+            $("#108").hide();
+            $("#F101").hide();
+            $("#F102").hide();
+            $("#F103").hide();
+            $("#F104").hide();
+            $("#F105").hide();
+            $("#F106").hide();
+            $("#F107").hide();
+            $("#F108").hide();
+        }
+
+        if (id == "106"){
+            $("#101").hide();
+            $("#102").hide();
+            $("#103").hide();
+            $("#104").hide();
+            $("#105").hide();
+            $("#106").show();
+            $("#107").hide();
+            $("#108").hide();
+            $("#F101").hide();
+            $("#F102").hide();
+            $("#F103").hide();
+            $("#F104").hide();
+            $("#F105").hide();
+            $("#F106").hide();
+            $("#F107").hide();
+            $("#F108").hide();
+        }
+
+        if (id == "107"){
+            $("#101").hide();
+            $("#102").hide();
+            $("#103").hide();
+            $("#104").hide();
+            $("#105").hide();
+            $("#106").hide();
+            $("#107").show();
+            $("#108").hide();
+            $("#F101").hide();
+            $("#F102").hide();
+            $("#F103").hide();
+            $("#F104").hide();
+            $("#F105").hide();
+            $("#F106").hide();
+            $("#F107").hide();
+            $("#F108").hide();
+        }
+
+        if (id == "108"){
+            $("#101").hide();
+            $("#102").hide();
+            $("#103").hide();
+            $("#104").hide();
+            $("#105").hide();
+            $("#106").hide();
+            $("#107").hide();
+            $("#108").show();
+            $("#F101").hide();
+            $("#F102").hide();
+            $("#F103").hide();
+            $("#F104").hide();
+            $("#F105").hide();
+            $("#F106").hide();
+            $("#F107").hide();
+            $("#F108").hide();
+        }
+
+        if (id == "F101"){
+            $("#101").hide();
+            $("#102").hide();
+            $("#103").hide();
+            $("#104").hide();
+            $("#105").hide();
+            $("#106").hide();
+            $("#107").hide();
+            $("#108").hide();
+            $("#F101").show();
+            $("#F102").hide();
+            $("#F103").hide();
+            $("#F104").hide();
+            $("#F105").hide();
+            $("#F106").hide();
+            $("#F107").hide();
+            $("#F108").hide();
+        }
+
+        if (id == "F102"){
+            $("#101").hide();
+            $("#102").hide();
+            $("#103").hide();
+            $("#104").hide();
+            $("#105").hide();
+            $("#106").hide();
+            $("#107").hide();
+            $("#108").hide();
+            $("#F101").hide();
+            $("#F102").show();
+            $("#F103").hide();
+            $("#F104").hide();
+            $("#F105").hide();
+            $("#F106").hide();
+            $("#F107").hide();
+            $("#F108").hide();
+        }
+
+        if (id == "F103"){
+            $("#101").hide();
+            $("#102").hide();
+            $("#103").hide();
+            $("#104").hide();
+            $("#105").hide();
+            $("#106").hide();
+            $("#107").hide();
+            $("#108").hide();
+            $("#F101").hide();
+            $("#F102").hide();
+            $("#F103").show();
+            $("#F104").hide();
+            $("#F105").hide();
+            $("#F106").hide();
+            $("#F107").hide();
+            $("#F108").hide();
+        }
+
+        if (id == "F104"){
+            $("#101").hide();
+            $("#102").hide();
+            $("#103").hide();
+            $("#104").hide();
+            $("#105").hide();
+            $("#106").hide();
+            $("#107").hide();
+            $("#108").hide();
+            $("#F101").hide();
+            $("#F102").hide();
+            $("#F103").hide();
+            $("#F104").show();
+            $("#F105").hide();
+            $("#F106").hide();
+            $("#F107").hide();
+            $("#F108").hide();
+        }
+
+        if (id == "F105"){
+            $("#101").hide();
+            $("#102").hide();
+            $("#103").hide();
+            $("#104").hide();
+            $("#105").hide();
+            $("#106").hide();
+            $("#107").hide();
+            $("#108").hide();
+            $("#F101").hide();
+            $("#F102").hide();
+            $("#F103").hide();
+            $("#F104").hide();
+            $("#F105").show();
+            $("#F106").hide();
+            $("#F107").hide();
+            $("#F108").hide();
+        }
+
+        if (id == "F106"){
+            $("#101").hide();
+            $("#102").hide();
+            $("#103").hide();
+            $("#104").hide();
+            $("#105").hide();
+            $("#106").hide();
+            $("#107").hide();
+            $("#108").hide();
+            $("#F101").hide();
+            $("#F102").hide();
+            $("#F103").hide();
+            $("#F104").hide();
+            $("#F105").hide();
+            $("#F106").show();
+            $("#F107").hide();
+            $("#F108").hide();
+        }
+
+        if (id == "F107"){
+            $("#101").hide();
+            $("#102").hide();
+            $("#103").hide();
+            $("#104").hide();
+            $("#105").hide();
+            $("#106").hide();
+            $("#107").hide();
+            $("#108").hide();
+            $("#F101").hide();
+            $("#F102").hide();
+            $("#F103").hide();
+            $("#F104").hide();
+            $("#F105").hide();
+            $("#F106").hide();
+            $("#F107").show();
+            $("#F108").hide();
+        }
+
+        if (id == "F108"){
+            $("#101").hide();
+            $("#102").hide();
+            $("#103").hide();
+            $("#104").hide();
+            $("#105").hide();
+            $("#106").hide();
+            $("#107").hide();
+            $("#108").hide();
+            $("#F101").hide();
+            $("#F102").hide();
+            $("#F103").hide();
+            $("#F104").hide();
+            $("#F105").hide();
+            $("#F106").hide();
+            $("#F107").hide();
+            $("#F108").show();
+        }
+    }
+    </script>
+</head>
+
+<body id="page-top">
+    <div id="wrapper">
+        <nav class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0">
+            <div class="container-fluid d-flex flex-column p-0"><a class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" href="#">
+                    <div class="sidebar-brand-icon rotate-n-15"><i class="fas fa-clock"></i></div>
+                    <div class="sidebar-brand-text mx-3"><span>Horarios de<br>Salones UV</span></div>
+                </a>
+                <hr class="sidebar-divider my-0">
+                <ul class="navbar-nav text-light" id="accordionSidebar">
+                    <li class="nav-item"><a class="nav-link active" href="index.html"><i class="fas fa-tachometer-alt"></i><span>Solicitar aulas</span></a></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"><a class="nav-link" href="table.html"><i class="fas fa-table"></i><span>Reservas</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="profile.html"><i class="fas fa-user"></i><span>Perfil</span></a></li>
+                    <li class="nav-item"></li>
+                </ul>
+                <div class="text-center d-none d-md-inline"><button class="btn rounded-circle border-0" id="sidebarToggle" type="button"></button></div>
+            </div>
+        </nav>
+        <div class="d-flex flex-column" id="content-wrapper">
+            <div id="content">
+                <nav class="navbar navbar-light navbar-expand bg-white shadow mb-4 topbar static-top">
+                    <div class="container-fluid"><button class="btn btn-link d-md-none rounded-circle me-3" id="sidebarToggleTop" type="button"><i class="fas fa-bars"></i></button>
+                        <form class="d-none d-sm-inline-block me-auto ms-md-3 my-2 my-md-0 mw-100 navbar-search">
+                            <div class="input-group"><input class="bg-light form-control border-0 small" type="text" placeholder="Buscar ..."><button class="btn btn-primary py-0" type="button"><i class="fas fa-search"></i></button></div>
+                        </form>
+                        <ul class="navbar-nav flex-nowrap ms-auto">
+                            <li class="nav-item dropdown show d-sm-none no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="true" data-bs-toggle="dropdown" href="#"><i class="fas fa-search"></i></a>
+                                <div class="dropdown-menu show dropdown-menu-end p-3 animated--grow-in" data-bs-popper="none" aria-labelledby="searchDropdown">
+                                    <form class="me-auto navbar-search w-100">
+                                        <div class="input-group"><input class="bg-light form-control border-0 small" type="text" placeholder="Search for ...">
+                                            <div class="input-group-append"><button class="btn btn-primary py-0" type="button"><i class="fas fa-search"></i></button></div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </li>
+                            <div class="d-none d-sm-block topbar-divider"></div>
+                            <li class="nav-item dropdown no-arrow">
+                                <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#"><span class="d-none d-lg-inline me-2 text-gray-600 small"><strong>Rojano Caceres Jose Rafael</strong></span><img class="border rounded-circle img-profile" src="assets/img/avatars/Rojano.jpeg"></a>
+                                    <div class="dropdown-menu shadow dropdown-menu-end animated--grow-in"><a class="dropdown-item" href="profile.html"><i class="fas fa-user fa-sm fa-fw me-2 text-gray-400"></i>&nbsp;Perfil</a>
+                                        <div class="dropdown-divider"></div><a class="dropdown-item" href="login.html"><i class="fas fa-sign-out-alt fa-sm fa-fw me-2 text-gray-400"></i>&nbsp;Logout</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="container-fluid">
+                    <div class="d-sm-flex justify-content-between align-items-center mb-4">
+                        <h3 class="text-dark mb-0">Formulario para solicitar un aula</h3>
+                    </div><div id="edificio">
+                        <div class="card">
+                            <form action="index.html" method="post">
+                                Selecciona el edificio:
+                                <select id="edificio" name="edificio" onChange="mostrar(this.value);">
+                                    <option value="edificio">-Edificio-</option>
+                                    <option value="antiguo">Antiguo</option>
+                                    <option value="nuevo">Nuevo</option>
+                                </select>
+                            </form>
+                        </div>
+                    </div>
+                    <div id="antiguo" style="display: none;">
+                        <div class="card">
+                            <form action="index.html" method="post">
+                                Selecciona el aula:
+                                <select id="aulaAntiguo" name="aulaAntiguo" onChange="mostraraula(this.value);">
+                                    <option value="aula">-Aula-</option>
+                                    <option value="101">101</option>
+                                    <option value="102">102</option>
+                                    <option value="103">103</option>
+                                    <option value="104">104</option>
+                                    <option value="105">105</option>
+                                    <option value="106">106</option>
+                                    <option value="107">107</option>
+                                    <option value="108">108</option>
+                                </select>
+                            </form>
+                        </div>
+                    </div>
+                    <div id="nuevo" style="display: none;">
+                        <div class="card">
+                            <form action="index.html" method="post">
+                                Selecciona el aula:
+                                <select id="aulaNuevo" name="aulaNuevo" onChange="mostraraula(this.value);">
+                                    <option value="aula">-Aula-</option>
+                                    <option value="F101">F101</option>
+                                    <option value="F102">F102</option>
+                                    <option value="F103">F103</option>
+                                    <option value="F104">F104</option>
+                                    <option value="F105">F105</option>
+                                    <option value="F106">F106</option>
+                                    <option value="F107">F107</option>
+                                    <option value="F108">F108</option>
+                                </select>
+                            </form>
+                        </div>
+                    </div>
+                    <div id="101" style="display: none;">
+                        <h3>Selecciona un horario del aula 101</h3>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>7:00 8:00</th>
+                                        <th>8:00 9:00</th>
+                                        <th>9:00 10:00</th>
+                                        <th>10:00 11:00</th>
+                                        <th>11:00 12:00</th>
+                                        <th>12:00 13:00</th>
+                                        <th>13:00 14:00</th>
+                                        <th>14:00 15:00</th>
+                                        <th>15:00 16:00</th>
+                                        <th>16:00 17:00</th>
+                                        <th>17:00 18:00</th>
+                                        <th>18:00 19:00</th>
+                                        <th>19:00 20:00</th>
+                                        <th>20:00 21:00</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><input id="7-8" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="8-9" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="9-10" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="10-11" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="11-12" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="12-13" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="13-14" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="14-15" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="15-16" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="16-17" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="17-18" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="18-19" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="19-20" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="20-21" type="checkbox" class="align-content-center"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button id="horario101" type="submit" class="btn btn-primary">Guardar</button>
+                        </div>
+                    </div>
+                    <div id="102" style="display: none;">
+                        <h3>Selecciona un horario del aula 102</h3>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>7:00 8:00</th>
+                                        <th>8:00 9:00</th>
+                                        <th>9:00 10:00</th>
+                                        <th>10:00 11:00</th>
+                                        <th>11:00 12:00</th>
+                                        <th>12:00 13:00</th>
+                                        <th>13:00 14:00</th>
+                                        <th>14:00 15:00</th>
+                                        <th>15:00 16:00</th>
+                                        <th>16:00 17:00</th>
+                                        <th>17:00 18:00</th>
+                                        <th>18:00 19:00</th>
+                                        <th>19:00 20:00</th>
+                                        <th>20:00 21:00</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><input id="7-8" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="8-9" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="9-10" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="10-11" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="11-12" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="12-13" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="13-14" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="14-15" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="15-16" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="16-17" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="17-18" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="18-19" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="19-20" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="20-21" type="checkbox" class="align-content-center"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button id="horario102" type="submit" class="btn btn-primary">Guardar</button>
+                        </div>
+                    </div>
+                    <div id="103" style="display: none;">
+                        <h3>Selecciona un horario del aula 103</h3>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>7:00 8:00</th>
+                                        <th>8:00 9:00</th>
+                                        <th>9:00 10:00</th>
+                                        <th>10:00 11:00</th>
+                                        <th>11:00 12:00</th>
+                                        <th>12:00 13:00</th>
+                                        <th>13:00 14:00</th>
+                                        <th>14:00 15:00</th>
+                                        <th>15:00 16:00</th>
+                                        <th>16:00 17:00</th>
+                                        <th>17:00 18:00</th>
+                                        <th>18:00 19:00</th>
+                                        <th>19:00 20:00</th>
+                                        <th>20:00 21:00</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><input id="7-8" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="8-9" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="9-10" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="10-11" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="11-12" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="12-13" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="13-14" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="14-15" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="15-16" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="16-17" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="17-18" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="18-19" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="19-20" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="20-21" type="checkbox" class="align-content-center"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button id="horario103" type="submit" class="btn btn-primary">Guardar</button>
+                        </div>
+                    </div>
+                    <div id="104" style="display: none;">
+                        <h3>Selecciona un horario del aula 104</h3>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>7:00 8:00</th>
+                                        <th>8:00 9:00</th>
+                                        <th>9:00 10:00</th>
+                                        <th>10:00 11:00</th>
+                                        <th>11:00 12:00</th>
+                                        <th>12:00 13:00</th>
+                                        <th>13:00 14:00</th>
+                                        <th>14:00 15:00</th>
+                                        <th>15:00 16:00</th>
+                                        <th>16:00 17:00</th>
+                                        <th>17:00 18:00</th>
+                                        <th>18:00 19:00</th>
+                                        <th>19:00 20:00</th>
+                                        <th>20:00 21:00</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><input id="7-8" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="8-9" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="9-10" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="10-11" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="11-12" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="12-13" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="13-14" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="14-15" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="15-16" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="16-17" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="17-18" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="18-19" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="19-20" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="20-21" type="checkbox" class="align-content-center"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button id="horario104" type="submit" class="btn btn-primary">Guardar</button>
+                        </div>
+                    </div>
+                    <div id="105" style="display: none;">
+                        <h3>Selecciona un horario del aula 105</h3>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>7:00 8:00</th>
+                                        <th>8:00 9:00</th>
+                                        <th>9:00 10:00</th>
+                                        <th>10:00 11:00</th>
+                                        <th>11:00 12:00</th>
+                                        <th>12:00 13:00</th>
+                                        <th>13:00 14:00</th>
+                                        <th>14:00 15:00</th>
+                                        <th>15:00 16:00</th>
+                                        <th>16:00 17:00</th>
+                                        <th>17:00 18:00</th>
+                                        <th>18:00 19:00</th>
+                                        <th>19:00 20:00</th>
+                                        <th>20:00 21:00</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><input id="7-8" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="8-9" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="9-10" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="10-11" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="11-12" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="12-13" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="13-14" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="14-15" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="15-16" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="16-17" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="17-18" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="18-19" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="19-20" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="20-21" type="checkbox" class="align-content-center"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button id="horario105" type="submit" class="btn btn-primary">Guardar</button>
+                        </div>
+                    </div>
+                    <div id="106" style="display: none;">
+                        <h3>Selecciona un horario del aula 106</h3>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>7:00 8:00</th>
+                                        <th>8:00 9:00</th>
+                                        <th>9:00 10:00</th>
+                                        <th>10:00 11:00</th>
+                                        <th>11:00 12:00</th>
+                                        <th>12:00 13:00</th>
+                                        <th>13:00 14:00</th>
+                                        <th>14:00 15:00</th>
+                                        <th>15:00 16:00</th>
+                                        <th>16:00 17:00</th>
+                                        <th>17:00 18:00</th>
+                                        <th>18:00 19:00</th>
+                                        <th>19:00 20:00</th>
+                                        <th>20:00 21:00</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><input id="7-8" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="8-9" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="9-10" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="10-11" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="11-12" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="12-13" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="13-14" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="14-15" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="15-16" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="16-17" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="17-18" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="18-19" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="19-20" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="20-21" type="checkbox" class="align-content-center"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button id="horario106" type="submit" class="btn btn-primary">Guardar</button>
+                        </div>
+                    </div>
+                    <div id="107" style="display: none;">
+                        <h3>Selecciona un horario del aula 107</h3>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>7:00 8:00</th>
+                                        <th>8:00 9:00</th>
+                                        <th>9:00 10:00</th>
+                                        <th>10:00 11:00</th>
+                                        <th>11:00 12:00</th>
+                                        <th>12:00 13:00</th>
+                                        <th>13:00 14:00</th>
+                                        <th>14:00 15:00</th>
+                                        <th>15:00 16:00</th>
+                                        <th>16:00 17:00</th>
+                                        <th>17:00 18:00</th>
+                                        <th>18:00 19:00</th>
+                                        <th>19:00 20:00</th>
+                                        <th>20:00 21:00</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><input id="7-8" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="8-9" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="9-10" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="10-11" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="11-12" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="12-13" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="13-14" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="14-15" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="15-16" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="16-17" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="17-18" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="18-19" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="19-20" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="20-21" type="checkbox" class="align-content-center"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button id="horario107" type="submit" class="btn btn-primary">Guardar</button>
+                        </div>
+                    </div>
+                    <div id="108" style="display: none;">
+                        <h3>Selecciona un horario del aula 108</h3>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>7:00 8:00</th>
+                                        <th>8:00 9:00</th>
+                                        <th>9:00 10:00</th>
+                                        <th>10:00 11:00</th>
+                                        <th>11:00 12:00</th>
+                                        <th>12:00 13:00</th>
+                                        <th>13:00 14:00</th>
+                                        <th>14:00 15:00</th>
+                                        <th>15:00 16:00</th>
+                                        <th>16:00 17:00</th>
+                                        <th>17:00 18:00</th>
+                                        <th>18:00 19:00</th>
+                                        <th>19:00 20:00</th>
+                                        <th>20:00 21:00</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><input id="7-8" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="8-9" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="9-10" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="10-11" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="11-12" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="12-13" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="13-14" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="14-15" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="15-16" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="16-17" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="17-18" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="18-19" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="19-20" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="20-21" type="checkbox" class="align-content-center"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button id="horario108" type="submit" class="btn btn-primary">Guardar</button>
+                        </div>
+                    </div>
+                    <div id="F101" style="display: none;">
+                        <h3>Selecciona un horario del aula F101</h3>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>7:00 8:00</th>
+                                        <th>8:00 9:00</th>
+                                        <th>9:00 10:00</th>
+                                        <th>10:00 11:00</th>
+                                        <th>11:00 12:00</th>
+                                        <th>12:00 13:00</th>
+                                        <th>13:00 14:00</th>
+                                        <th>14:00 15:00</th>
+                                        <th>15:00 16:00</th>
+                                        <th>16:00 17:00</th>
+                                        <th>17:00 18:00</th>
+                                        <th>18:00 19:00</th>
+                                        <th>19:00 20:00</th>
+                                        <th>20:00 21:00</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><input id="7-8" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="8-9" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="9-10" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="10-11" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="11-12" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="12-13" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="13-14" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="14-15" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="15-16" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="16-17" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="17-18" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="18-19" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="19-20" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="20-21" type="checkbox" class="align-content-center"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button id="horarioF101" type="submit" class="btn btn-primary">Guardar</button>
+                        </div>
+                    </div>
+                    <div id="F102" style="display: none;">
+                        <h3>Selecciona un horario del aula F102</h3>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>7:00 8:00</th>
+                                        <th>8:00 9:00</th>
+                                        <th>9:00 10:00</th>
+                                        <th>10:00 11:00</th>
+                                        <th>11:00 12:00</th>
+                                        <th>12:00 13:00</th>
+                                        <th>13:00 14:00</th>
+                                        <th>14:00 15:00</th>
+                                        <th>15:00 16:00</th>
+                                        <th>16:00 17:00</th>
+                                        <th>17:00 18:00</th>
+                                        <th>18:00 19:00</th>
+                                        <th>19:00 20:00</th>
+                                        <th>20:00 21:00</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><input id="7-8" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="8-9" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="9-10" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="10-11" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="11-12" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="12-13" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="13-14" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="14-15" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="15-16" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="16-17" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="17-18" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="18-19" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="19-20" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="20-21" type="checkbox" class="align-content-center"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button id="horarioF102" type="submit" class="btn btn-primary">Guardar</button>
+                        </div>
+                    </div>
+                    <div id="F103" style="display: none;">
+                        <h3>Selecciona un horario del aula F103</h3>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>7:00 8:00</th>
+                                        <th>8:00 9:00</th>
+                                        <th>9:00 10:00</th>
+                                        <th>10:00 11:00</th>
+                                        <th>11:00 12:00</th>
+                                        <th>12:00 13:00</th>
+                                        <th>13:00 14:00</th>
+                                        <th>14:00 15:00</th>
+                                        <th>15:00 16:00</th>
+                                        <th>16:00 17:00</th>
+                                        <th>17:00 18:00</th>
+                                        <th>18:00 19:00</th>
+                                        <th>19:00 20:00</th>
+                                        <th>20:00 21:00</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><input id="7-8" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="8-9" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="9-10" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="10-11" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="11-12" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="12-13" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="13-14" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="14-15" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="15-16" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="16-17" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="17-18" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="18-19" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="19-20" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="20-21" type="checkbox" class="align-content-center"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button id="horarioF103" type="submit" class="btn btn-primary">Guardar</button>
+                        </div>
+                    </div>
+                    <div id="F104" style="display: none;">
+                        <h3>Selecciona un horario del aula F104</h3>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>7:00 8:00</th>
+                                        <th>8:00 9:00</th>
+                                        <th>9:00 10:00</th>
+                                        <th>10:00 11:00</th>
+                                        <th>11:00 12:00</th>
+                                        <th>12:00 13:00</th>
+                                        <th>13:00 14:00</th>
+                                        <th>14:00 15:00</th>
+                                        <th>15:00 16:00</th>
+                                        <th>16:00 17:00</th>
+                                        <th>17:00 18:00</th>
+                                        <th>18:00 19:00</th>
+                                        <th>19:00 20:00</th>
+                                        <th>20:00 21:00</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><input id="7-8" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="8-9" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="9-10" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="10-11" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="11-12" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="12-13" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="13-14" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="14-15" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="15-16" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="16-17" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="17-18" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="18-19" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="19-20" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="20-21" type="checkbox" class="align-content-center"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button id="horarioF104" type="submit" class="btn btn-primary">Guardar</button>
+                        </div>
+                    </div>
+                    <div id="F105" style="display: none;">
+                        <h3>Selecciona un horario del aula F105</h3>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>7:00 8:00</th>
+                                        <th>8:00 9:00</th>
+                                        <th>9:00 10:00</th>
+                                        <th>10:00 11:00</th>
+                                        <th>11:00 12:00</th>
+                                        <th>12:00 13:00</th>
+                                        <th>13:00 14:00</th>
+                                        <th>14:00 15:00</th>
+                                        <th>15:00 16:00</th>
+                                        <th>16:00 17:00</th>
+                                        <th>17:00 18:00</th>
+                                        <th>18:00 19:00</th>
+                                        <th>19:00 20:00</th>
+                                        <th>20:00 21:00</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><input id="7-8" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="8-9" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="9-10" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="10-11" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="11-12" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="12-13" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="13-14" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="14-15" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="15-16" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="16-17" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="17-18" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="18-19" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="19-20" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="20-21" type="checkbox" class="align-content-center"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button id="horarioF105" type="submit" class="btn btn-primary">Guardar</button>
+                        </div>
+                    </div>
+                    <div id="F106" style="display: none;">
+                        <h3>Selecciona un horario del aula F106</h3>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>7:00 8:00</th>
+                                        <th>8:00 9:00</th>
+                                        <th>9:00 10:00</th>
+                                        <th>10:00 11:00</th>
+                                        <th>11:00 12:00</th>
+                                        <th>12:00 13:00</th>
+                                        <th>13:00 14:00</th>
+                                        <th>14:00 15:00</th>
+                                        <th>15:00 16:00</th>
+                                        <th>16:00 17:00</th>
+                                        <th>17:00 18:00</th>
+                                        <th>18:00 19:00</th>
+                                        <th>19:00 20:00</th>
+                                        <th>20:00 21:00</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><input id="7-8" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="8-9" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="9-10" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="10-11" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="11-12" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="12-13" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="13-14" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="14-15" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="15-16" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="16-17" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="17-18" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="18-19" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="19-20" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="20-21" type="checkbox" class="align-content-center"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button id="horarioF106" type="submit" class="btn btn-primary">Guardar</button>
+                        </div>
+                    </div>
+                    <div id="F107" style="display: none;">
+                        <h3>Selecciona un horario del aula F107</h3>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>7:00 8:00</th>
+                                        <th>8:00 9:00</th>
+                                        <th>9:00 10:00</th>
+                                        <th>10:00 11:00</th>
+                                        <th>11:00 12:00</th>
+                                        <th>12:00 13:00</th>
+                                        <th>13:00 14:00</th>
+                                        <th>14:00 15:00</th>
+                                        <th>15:00 16:00</th>
+                                        <th>16:00 17:00</th>
+                                        <th>17:00 18:00</th>
+                                        <th>18:00 19:00</th>
+                                        <th>19:00 20:00</th>
+                                        <th>20:00 21:00</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><input id="7-8" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="8-9" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="9-10" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="10-11" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="11-12" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="12-13" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="13-14" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="14-15" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="15-16" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="16-17" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="17-18" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="18-19" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="19-20" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="20-21" type="checkbox" class="align-content-center"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button id="horarioF107" type="submit" class="btn btn-primary">Guardar</button>
+                        </div>
+                    </div>
+                    <div id="F108" style="display: none;">
+                        <h3>Selecciona un horario del aula F108</h3>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>7:00 8:00</th>
+                                        <th>8:00 9:00</th>
+                                        <th>9:00 10:00</th>
+                                        <th>10:00 11:00</th>
+                                        <th>11:00 12:00</th>
+                                        <th>12:00 13:00</th>
+                                        <th>13:00 14:00</th>
+                                        <th>14:00 15:00</th>
+                                        <th>15:00 16:00</th>
+                                        <th>16:00 17:00</th>
+                                        <th>17:00 18:00</th>
+                                        <th>18:00 19:00</th>
+                                        <th>19:00 20:00</th>
+                                        <th>20:00 21:00</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><input id="7-8" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="8-9" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="9-10" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="10-11" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="11-12" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="12-13" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="13-14" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="14-15" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="15-16" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="16-17" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="17-18" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="18-19" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="19-20" type="checkbox" class="align-content-center"></td>
+                                        <td><input id="20-21" type="checkbox" class="align-content-center"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button id="horarioF108" type="submit" class="btn btn-primary">Guardar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="bg-white sticky-footer">
+                <div class="container my-auto">
+                    <div class="text-center my-auto copyright"><span>Copyright © Equipo 6 2023</span></div>
+                </div>
+            </footer>
+        </div><a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/theme.js"></script>
+</body>
+
+</html>
